@@ -17,14 +17,18 @@
     .anchor {
       visibility: hidden;
       opacity: 0;
-      transition: opacity 0.25s ease-in, visibility 0s ease-in 0.25s;
+      transition:
+        opacity 0.25s ease-in,
+        visibility 0s ease-in 0.25s;
     }
 
     &:hover {
       .anchor {
         visibility: visible;
         opacity: 1;
-        transition: opacity 0.25s ease-in, visibility 0s ease-in 0s;
+        transition:
+          opacity 0.25s ease-in,
+          visibility 0s ease-in 0s;
       }
     }
   }
@@ -45,8 +49,8 @@
 }
 
 %link-hover {
-  color: #d2603a !important;
-  border-bottom: 1px solid #d2603a;
+  color: #f4efe6 !important;
+  border-bottom: 1px solid #f4efe6;
   text-decoration: none;
 }
 

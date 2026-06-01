@@ -96,7 +96,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
   .site-title {
     @extend %clickable-transition;
-    @extend %sidebar-link-hover;
+
+    // @extend %sidebar-link-hover;
 
     font-family: inherit;
     font-weight: 900;
@@ -143,6 +144,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
+          color: var(--sidebar-active-color);
         }
 
         i {
